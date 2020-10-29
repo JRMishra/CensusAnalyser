@@ -1,10 +1,10 @@
-﻿using IndianStateCensusDemo.DTO;
+﻿using IndianCensusAnalyser.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace IndianStateCensusDemo
+namespace IndianCensusAnalyser
 {
     class IndianCensusAdapter : CensusAdapter
     {

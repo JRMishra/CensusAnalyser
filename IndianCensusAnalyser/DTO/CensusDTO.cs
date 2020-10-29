@@ -1,10 +1,10 @@
-﻿using IndianStateCensusDemo.POCO;
+﻿using IndianCensusAnalyser.POCO;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using static IndianStateCensusDemo.POCO.CensusDataDAO;
+using static IndianCensusAnalyser.POCO.CensusDataDAO;
 
-namespace IndianStateCensusDemo.DTO
+namespace IndianCensusAnalyser.DTO
 {
     public class CensusDTO
     {

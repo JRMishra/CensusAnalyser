@@ -1,9 +1,9 @@
-﻿using IndianStateCensusDemo.DTO;
+﻿using IndianCensusAnalyser.DTO;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace IndianStateCensusDemo
+namespace IndianCensusAnalyser
 {
     public class CensusAnalyser
     {

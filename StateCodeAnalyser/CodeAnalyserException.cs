@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IndianCensusAnalyser
+namespace StateCodeAnalyser
 {
-    public class CensusAnalyserException : Exception
+    public class CodeAnalyserException : Exception
     {
         public enum ExceptionType
         {
@@ -14,8 +14,9 @@ namespace IndianCensusAnalyser
             INCORRECT_HEADER,
             NO_SUCH_COUNTRY
         }
+        
         public ExceptionType eType;
-        public CensusAnalyserException(string message, ExceptionType exceptionType) : base(message)
+        public CodeAnalyserException(string message, ExceptionType exceptionType) : base(message)
         {
             this.eType = exceptionType;
         }

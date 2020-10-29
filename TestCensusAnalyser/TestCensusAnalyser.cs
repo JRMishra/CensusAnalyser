@@ -1,9 +1,9 @@
-using IndianStateCensusDemo;
-using IndianStateCensusDemo.DTO;
+using IndianCensusAnalyser;
+using IndianCensusAnalyser.DTO;
 using NUnit.Framework;
 using System.Collections.Generic;
 
-namespace TestCensusAnalyser
+namespace TestAnalysers
 {
     public class TestCensusAnalyser
     {
@@ -14,10 +14,10 @@ namespace TestCensusAnalyser
         
         static string indianStateCensusFilePath = folder + "IndiaStateCensusData.csv";
 
-        static string wrongIndianStateCensusFilePath = folder + "WrongIndiaStateCensusData.csv";
-        static string wrongHeaderIndianStateCensusFilePath = folder + "WrongHeaderIndiaStateCensusData.csv";
-        static string delimiterIndianStateCensusFilePath = folder + "DelimiterIndiaStateCensusData.csv";
-        static string wrongIndianStateCensusFileType = folder + "IndiaStateCensusData.txt";
+        static readonly string wrongIndianStateCensusFilePath = folder + "WrongIndiaStateCensusData.csv";
+        static readonly string wrongHeaderIndianStateCensusFilePath = folder + "WrongHeaderIndiaStateCensusData.csv";
+        static readonly string delimiterIndianStateCensusFilePath = folder + "DelimiterIndiaStateCensusData.csv";
+        static readonly string wrongIndianStateCensusFileType = folder + "IndiaStateCensusData.txt";
         
         CensusAnalyser censusAnalyser;
         Dictionary<string, CensusDTO> totalRecord;

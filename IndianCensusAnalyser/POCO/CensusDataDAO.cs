@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace IndianStateCensusDemo.POCO
+namespace IndianCensusAnalyser.POCO
 {
     public class CensusDataDAO
     {
