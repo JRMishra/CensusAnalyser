@@ -6,7 +6,7 @@ namespace StateCodeAnalyser
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("State Code Analyser Program");
         }
     }
 }
